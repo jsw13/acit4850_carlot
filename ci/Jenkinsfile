@@ -1,2 +1,2 @@
 @Library('ci_functions@main') _
-python_build("acit4850_carlot", "carlotapp")
+python_build("acit4850_carlot", "carlotapp", 5000)
