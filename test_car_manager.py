@@ -142,3 +142,7 @@ class TestCarManager(TestCase):
         cars_after = self.car_mgr.get_all_cars()
         self.assertEqual(len(cars_after), 2)
 
+if __name__ == "__main__":
+    runner = xmlrunner.XMLTestRunner(output="test-reports")
+    unittest.main(testRunner=runner)
+    unittest.main()
