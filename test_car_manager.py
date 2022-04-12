@@ -5,6 +5,7 @@ from car_manager import CarManager
 import sqlite3
 import os
 import inspect
+import xmlrunner
 
 
 class TestCarManager(TestCase):
